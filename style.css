@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1e1e1e;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dice__title {
+  background-color: #f4f4f4;
+  color: black;
+  padding: 1.5em;
+}
+
+.dice__trigger {
+  margin-top: 30px;
+  font-size: 1rem;
+  padding: 1rem 1.2rem;
+  border-radius: 4px;
+  margin-top: 2rem 0;
+}
+
+.dice__trigger:hover {
+  opacity: 0.8;
+}
+
+.dice__image {
+  margin-top: 30px;
+  max-width: 25%;
+  height: auto;
+}
